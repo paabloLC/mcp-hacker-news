@@ -30,7 +30,7 @@ function sendResponse(id: number, result: object) {
       if (json.jsonrpc === "2.0") {
         if (json.method === "initialize") {
           sendResponse(json.id, {
-            protocolVersion: "2025-03-26",
+            protocolVersion: "2024-11-05",
             capabilities: {
               tools: { listChanged: true },
               resources: { listChanged: true },
