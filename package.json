@@ -1,8 +1,11 @@
 {
   "name": "mcp-hacker-news",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Hacker News MCP Server",
   "main": "dist/index.js",
+  "bin": {
+    "mcp-hacker-news": "dist/index.js"
+  },
   "type": "module",
   "scripts": {
     "build": "tsc",
@@ -16,10 +19,23 @@
   ],
   "keywords": [
     "mcp",
-    "hacker-news"
+    "hacker-news",
+    "model-context-protocol",
+    "claude",
+    "ai",
+    "news",
+    "api"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Pablo LC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paabloLC/mcp-hacker-news.git"
+  },
+  "homepage": "https://github.com/paabloLC/mcp-hacker-news#readme",
+  "bugs": {
+    "url": "https://github.com/paablolc/mcp-hacker-news/issues"
+  },
   "packageManager": "pnpm@10.6.5",
   "engines": {
     "node": ">=16.0.0"
