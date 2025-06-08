@@ -46,3 +46,6 @@ pnpm inspector
 ├── .gitignore
 ├── README.md
 ```
+
+![mcp-inspector](https://github.com/user-attachments/assets/49938eda-7c70-4ec2-bc5f-404fe812153d)
+
