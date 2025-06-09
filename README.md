@@ -6,9 +6,9 @@ This MCP server acts as a bridge between the official [Hacker News API](https://
 
 It enables these tools to fetch and interact with live Hacker News data (posts, comments, users) via standardized MCP endpoints.
 
-## Usage with Claude Desktop
+## Using with Claude Desktop or Cursor
 
-Add to your Claude Desktop configuration (`claude_desktop_config.json`):
+Add to your Claude desktop config (`claude_desktop_config.json`) or your Cursor config file (`mcp.json`) :
 
 ```json
 {
