@@ -6,6 +6,10 @@ This MCP server acts as a bridge between the official [Hacker News API](https://
 
 It enables these tools to fetch and interact with live Hacker News data (posts, comments, users) via standardized MCP endpoints.
 
+<a href="https://glama.ai/mcp/servers/@paabloLC/mcp-hacker-news">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@paabloLC/mcp-hacker-news/badge" alt="Hacker News MCP server" />
+</a>
+
 ## Using with Claude Desktop or Cursor
 
 Add to your Claude desktop config (`claude_desktop_config.json`) or your Cursor config file (`mcp.json`) :
